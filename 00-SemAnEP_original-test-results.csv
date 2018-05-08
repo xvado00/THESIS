@@ -1,0 +1,64 @@
+Characteristics,BF(2-1),BF(5-1),BF(10-1),BF(20-1),BF(5-2),BF(5-3),BF(5-4)
+Chance,,,,,,,
+instruction is present:,151726,152917,152936,152401,152583,152467,152313
+surely influences reward:,36752,33316,33785,33684,33758,33670,33577
+possibly influences reward:,12924,16334,16500,16437,15729,15311,15281
+possibly doesn't influence reward:,1768,2724,2734,2703,2824,2823,2755
+surely doesn't influence reward:,101768,96314,96979,97601,95861,95827,95704
+surely influences observation:,11011,9831,10188,10217,9450,9691,9582
+possibly influences observation:,7979,9555,9696,9661,9274,8949,8869
+possibly doesn't influence observation:,1768,2724,2734,2703,2824,2823,2755
+surely doesn't influence observation:,77148,74288,74510,75177,73358,73315,73454
+surely influences computation:,90188,87148,88125,88020,85553,84557,84325
+possibly influences computation:,23645,26478,26143,25776,26990,26975,27229
+of that based on action:,7197,8460,8147,8131,8159,7950,8032
+possibly doesn't influence computation:,1768,2724,2734,2703,2824,2823,2755
+surely doesn't influence computation:,66022,64257,64475,65140,63843,63721,63773
+Action,,,,,,,
+instruction is present:,200000,200000,200000,200000,200000,200000,200000
+surely influences computation:,153559,148225,148212,148591,146642,145006,144900
+possibly influences computation:,24506,27507,27505,27627,28467,28703,28606
+of that based on chance:,3950,4638,4664,4729,4723,4773,4692
+possibly doesn't influence computation:,2190,3628,3657,3606,3747,3640,3719
+surely doesn't influence computation:,17842,17226,17452,17571,16489,16242,16098
+surely influences reward:,75331,67883,68448,68724,68623,69162,68988
+possibly influences reward:,15495,21118,20939,21086,19905,19704,19819
+possibly doesn't influence reward:,2190,3628,3657,3606,3747,3640,3719
+surely doesn't influence reward:,36752,33316,33785,33684,33758,33670,33577
+surely influences observation:,18441,16711,16761,16921,16721,16999,16989
+possibly influences observation:,10162,13204,12916,13309,12533,12290,12172
+possibly doesn't influence observation:,2190,3628,3657,3606,3747,3640,3719
+surely doesn't influence observation:,28853,27057,27640,27788,25939,25933,25680
+Reward/Observations,,,,,,,
+instruction is present:,200000,200000,200000,200000,200000,200000,200000
+Reward,,,,,,,
+surely is produced in computation:,173255,160787,161306,161154,162256,162591,162470
+possibly is produced in computation:,26154,38554,38027,38211,37133,36827,36956
+of that based on action:,6145,10451,10214,10302,9748,9635,9835
+of that based on chance:,4985,7397,7511,7491,7192,7110,7204
+surely isn't produced in computation:,0,0,0,0,0,0,0
+Observation,,,,,,,
+surely is produced in computation:,62585,57947,58248,58298,63654,65607,65404
+possibly is produced in computation:,34174,41467,41328,41240,40199,40064,39809
+of that based on action:,6145,10451,10214,10302,9748,9635,9835
+of that based on chance:,4985,7397,7511,7491,7192,7110,7204
+surely isn't produced in computation:,68263,61629,62344,62310,58906,58089,58024
+Syntactically degraded environments,,,,,,,
+only read and write instructions:,10071,9163,9162,9199,9112,9210,9217
+read and write and 1 pair/instruction:,21440,19560,19881,19766,19708,19430,19546
+read and write and 2 pairs/instructions:,29983,28266,28470,28887,28230,28361,28440
+read and write and 3 pairs/instructions:,40484,40126,40653,41281,40388,40441,40479
+read and write and 4 pairs/instructions (full BF set):,98022,102885,101834,100867,102562,102558,102318
+Infinite loops,,,,,,,
+are present:,3421,3319,3499,3332,2870,2453,2264
+Pointless code,,,,,,,
+never executed loops,24518,25910,25588,25204,25677,25554,25619
+incrementation/decrementation of chance,71512,72228,71808,71066,71758,72076,71843
+action/chance/incrementation/decrementation overwritten by chance or action,146553,147043,147046,146383,146418,146615,146181
+zeroing overwritten by chance or action,10029,10559,9870,9763,10259,10175,10164
+zeroed chance or action,11823,12304,11836,11851,11991,12030,11908
+Premature termination,,,,,,,
+surely occures,20407,18892,19108,19178,7081,2647,892
+possibly occures,37047,44105,43907,43941,46495,47891,48133
+of that based on action:,9929,12623,12502,12616,12984,13239,13244
+of that based on chance:,8977,10928,10912,10890,11195,11391,11668
